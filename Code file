@@ -1,0 +1,31 @@
+import turtle as t
+import random 
+tim=t.Turtle()
+tim.speed(0)
+#import colorgram
+rgb_colors= [(232, 222, 228),(255, 165, 0),(135, 136, 107), (157, 156, 152),(214, 204, 131), (148, 174, 161), (48, 104, 137), (55, 116, 83), (137, 166, 183), (15, 37, 63), (45, 172, 129), (59, 29, 19), (192, 143, 161), (18, 44, 30), (154, 67, 94), (55, 31, 52), (199, 74, 107), (220, 93, 56), (14, 97, 53), (139, 32, 20), (169, 206, 186), (42, 162, 176)]
+#t.colormode(255)
+screen=t.Screen()
+tim.penup()
+tim.hideturtle()
+tim.setposition(-150,-150)
+for i in range(10):
+  
+  for j in range(10):
+    tim.dot(10,random.choice(rgb_colors))
+    
+    tim.forward(40)
+    
+    
+  tim.left(90)
+ 
+  tim.forward(40)
+  tim.left(90)
+  tim.forward(400)
+  tim.right(180)
+  
+
+
+
+  
+  
